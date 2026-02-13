@@ -22,13 +22,3 @@ Clone the repository:
 git clone https://github.com/lucablipp/wellplate_analysis.git
 cd wellplate_analysis
 ```
-
-## Dependencies
-
-Python >= 3.11.1
-Pandas 
-Numpy 
-Scipy 
-Matplotlib 
-openpyxl
-Pyyaml
