@@ -1,15 +1,15 @@
 ```toml
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "wellplate_analysis"
 version = "0.1.0"
-description = "Modular config-driven well plate analysis pipeline and tools"
+description = "Analysis pipeline for plate reader fluorescence and OD data"
 authors = [
-  { name = "Luca Lippert", email = "llippert.uoregon.edu" }
+    { name="Your Name", email="you@example.com" }
 ]
-
-readme = "README.md"
-requires-python = ">=3.9"
-
 dependencies = [
 [
     "pandas>=2.3.3",
@@ -19,10 +19,3 @@ dependencies = [
     "openpyxl>=3.1.2",
     "pyyaml>=6.0.2"
 ]
-
-[build-system]
-requires = ["setuptools>=61"]
-build-backend = "setuptools.build_meta"
-
-[tool.pytest.ini_options]
-testpaths = ["tests"]
