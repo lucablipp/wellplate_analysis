@@ -7,15 +7,29 @@ name = "wellplate_analysis"
 version = "0.1.0"
 description = "Analysis pipeline for plate reader fluorescence and OD data"
 authors = [
-    { name="Luca Lippert", email="llippert@uoregon.edu" }
+    { name = "Luca Lippert", email = "llippert@uoregon.edu" }
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["fluorescence", "OD600", "MEFL", "plate reader", "wellplate"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Bio-Informatics"
 ]
 dependencies = [
-[
-    "pandas>=2.3.3",
-    "numpy>=1.26.4",
-    "scipy>=1.16.2",
-    "matplotlib>=3.5.3",
-    "openpyxl>=3.1.2",
-    "pyyaml>=6.0.2"
+    "pandas==2.3.3",
+    "numpy==1.26.4",
+    "scipy==1.16.2",
+    "matplotlib==3.5.3",
+    "openpyxl==3.1.2",
+    "pyyaml==6.0.2"
 ]
 
+[project.urls]
+"Homepage" = "https://github.com/yourusername/wellplate-analysis"
+"Repository" = "https://github.com/yourusername/wellplate-analysis"
+
+[tool.setuptools.packages.find]
+where = ["."]
