@@ -1,0 +1,5 @@
+```toml
+[project]
+name = "wellplate_analysis"
+version = "0.1.0"
+description = "Config-driven 
