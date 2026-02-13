@@ -8,7 +8,7 @@ name = "wellplate_analysis"
 version = "0.1.0"
 description = "Analysis pipeline for plate reader fluorescence and OD data"
 authors = [
-    { name="Your Name", email="you@example.com" }
+    { name="Luca Lippert", email="llippert@uoregon.edu" }
 ]
 dependencies = [
 [
@@ -19,3 +19,4 @@ dependencies = [
     "openpyxl>=3.1.2",
     "pyyaml>=6.0.2"
 ]
+```
