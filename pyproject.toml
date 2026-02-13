@@ -2,4 +2,27 @@
 [project]
 name = "wellplate_analysis"
 version = "0.1.0"
-description = "Config-driven 
+description = "Modular config-driven well plate analysis pipeline and tools"
+authors = [
+  { name = "Luca Lippert", email = "llippert.uoregon.edu" }
+]
+
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+[
+    "pandas>=1.5",
+    "numpy>=1.23",
+    "scipy>=1.9",
+    "matplotlib>=3.6",
+    "openpyxl>=3.1",
+    "pyyaml>=6.0"
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
