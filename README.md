@@ -21,4 +21,5 @@ Clone the repository:
 ```bash
 git clone https://github.com/lucablipp/wellplate_analysis.git
 cd wellplate_analysis
+pip install -e .
 ```
