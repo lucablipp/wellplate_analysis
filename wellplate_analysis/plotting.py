@@ -36,7 +36,6 @@ def plot_columns(df, columns, title, units, output_folder, filename="file_name.p
     plt.ylabel(units)
     os.makedirs(output_folder, exist_ok=True)
     plt.savefig(os.path.join(output_folder, filename))
-    plt.show()
     plt.close()
 
     return(df)
