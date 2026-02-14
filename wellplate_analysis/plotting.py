@@ -38,3 +38,5 @@ def plot_columns(df, columns, title, units, output_folder, filename="file_name.p
     plt.savefig(os.path.join(output_folder, filename))
     plt.show()
     plt.close()
+
+    return(df)
