@@ -1,4 +1,4 @@
-file_path = "data/2026-01-30_Manuscript_controls-2.xlsx"
+file_path : "2026-01-30_Manuscript_controls-2.xlsx"
 
 sheets:
   od600: "od600"
@@ -49,37 +49,37 @@ conditions:
 plotting:
   plots:
     - name: "4029 average"
-    source: "average"
-    columns: ["4029_NoLig", "4029_3Fum", "4029_10Fum", "4029_20Fum", "4029_3Asp", "4029_10Asp", "4029_20Asp"]
-    labels: ["No Ligand", "2mM fumarate", "10mM fumarate", "20mM fumarate", "3mM aspartate", "10mM aspartate", "20mM aspartate"]
-    colors: ["gray", "lightskyblue","dodgerblue", "b","plum","mediumorchid", "darkviolet"]
-    title: "BW29655-pSR40.29 without inducers"
-    units: "MEFL / OD600"
-    filename: "pSR4029_average.png"
+      source: "normalized MEFL average"
+      columns: ["4029_NoLig", "4029_3Fum", "4029_10Fum", "4029_20Fum", "4029_3Asp", "4029_10Asp", "4029_20Asp"]
+      labels: ["No Ligand", "2mM fumarate", "10mM fumarate", "20mM fumarate", "3mM aspartate", "10mM aspartate", "20mM aspartate"]
+      colors: ["gray", "lightskyblue","dodgerblue", "b","plum","mediumorchid", "darkviolet"]
+      title: "BW29655-pSR40.29 without inducers"
+      units: "MEFL / OD600"
+      filename: "pSR4029_average.png"
     - name: "DcuS no inducers average"
-    source: "average"
-    columns: ["DcuS_NoLig_NoIND", "DcuS_3Fum_NoIND", "DcuS_10Fum_NoIND", "DcuS_20Fum_NoIND", "DcuS_3Asp_NoIND", "DcuS_10Asp_NoIND", "DcuS_20Asp_NoIND"]
-    labels: ["No Ligand", "2mM fumarate", "10mM fumarate", "20mM fumarate", "3mM aspartate", "10mM aspartate", "20mM aspartate"]
-    colors: ["gray", "lightskyblue","dodgerblue", "b","plum","mediumorchid", "darkviolet"]
-    title: "BW29655-pDcuSEnvZ without inducers"
-    units: "MEFL / OD600"
-    filename: "pDcuSEnvZ_noIND_average.png"
+      source: "normalized MEFL average"
+      columns: ["DcuS_NoLig_NoIND", "DcuS_3Fum_NoIND", "DcuS_10Fum_NoIND", "DcuS_20Fum_NoIND", "DcuS_3Asp_NoIND", "DcuS_10Asp_NoIND", "DcuS_20Asp_NoIND"]
+      labels: ["No Ligand", "2mM fumarate", "10mM fumarate", "20mM fumarate", "3mM aspartate", "10mM aspartate", "20mM aspartate"]
+      colors: ["gray", "lightskyblue","dodgerblue", "b","plum","mediumorchid", "darkviolet"]
+      title: "BW29655-pDcuSEnvZ without inducers"
+      units: "MEFL / OD600"
+      filename: "pDcuSEnvZ_noIND_average.png"
     - name: "DcuS no aTc average"
-    source: "average"
-    columns: ["DcuS_NoLig_IPTG", "DcuS_3Fum_IPTG", "DcuS_10Fum_IPTG", "DcuS_20Fum_IPTG", "DcuS_3Asp_IPTG", "DcuS_10Asp_IPTG", "DcuS_20Asp_IPTG"]
-    labels: ["No Ligand", "2mM fumarate", "10mM fumarate", "20mM fumarate", "3mM aspartate", "10mM aspartate", "20mM aspartate"]
-    colors: ["gray", "lightskyblue","dodgerblue", "b","plum","mediumorchid", "darkviolet"]
-    title: "BW29655-pDcuSEnvZ without aTc"
-    units: "MEFL / OD600"
-    filename: "pDcuSEnvZ_IPTG_average.png"
+      source: "normalized MEFL average"
+      columns: ["DcuS_NoLig_IPTG", "DcuS_3Fum_IPTG", "DcuS_10Fum_IPTG", "DcuS_20Fum_IPTG", "DcuS_3Asp_IPTG", "DcuS_10Asp_IPTG", "DcuS_20Asp_IPTG"]
+      labels: ["No Ligand", "2mM fumarate", "10mM fumarate", "20mM fumarate", "3mM aspartate", "10mM aspartate", "20mM aspartate"]
+      colors: ["gray", "lightskyblue","dodgerblue", "b","plum","mediumorchid", "darkviolet"]
+      title: "BW29655-pDcuSEnvZ without aTc"
+      units: "MEFL / OD600"
+      filename: "pDcuSEnvZ_IPTG_average.png"
     - name: "DcuS no IPTG average"
-    source: "average"
-    columns: ["DcuS_NoLig_aTc", "DcuS_3Fum_aTc", "DcuS_10Fum_aTc", "DcuS_20Fum_aTc", "DcuS_3Asp_aTc", "DcuS_10Asp_aTc", "DcuS_20Asp_aTc"]
-    labels: ["No Ligand", "2mM fumarate", "10mM fumarate", "20mM fumarate", "3mM aspartate", "10mM aspartate", "20mM aspartate"]
-    colors: ["gray", "lightskyblue","dodgerblue", "b","plum","mediumorchid", "darkviolet"]
-    title: "BW29655-pDcuSEnvZ without IPTG"
-    units: "MEFL / OD600"
-    filename: "pDcuSEnvZ_aTc_average.png"
+      source: "normalized MEFL average"
+      columns: ["DcuS_NoLig_aTc", "DcuS_3Fum_aTc", "DcuS_10Fum_aTc", "DcuS_20Fum_aTc", "DcuS_3Asp_aTc", "DcuS_10Asp_aTc", "DcuS_20Asp_aTc"]
+      labels: ["No Ligand", "2mM fumarate", "10mM fumarate", "20mM fumarate", "3mM aspartate", "10mM aspartate", "20mM aspartate"]
+      colors: ["gray", "lightskyblue","dodgerblue", "b","plum","mediumorchid", "darkviolet"]
+      title: "BW29655-pDcuSEnvZ without IPTG"
+      units: "MEFL / OD600"
+      filename: "pDcuSEnvZ_aTc_average.png"
 
 rename_map:
   "A1": "4029_NoLig-1"
