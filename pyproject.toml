@@ -8,6 +8,7 @@ version = "0.1.0"
 description = "Analysis pipeline for plate reader fluorescence and OD data"
 authors = [
     { name = "Luca Lippert", email = "llippert@uoregon.edu" }
+    { name = "Dr. Calin Plesa", email = "calin@uoregon.edu" }
 ]
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -31,7 +32,7 @@ dependencies = [
 run_pipeline = "wellplate_analysis.cli:main"
 
 [project.urls]
-"Homepage" = "https://github.com/yourusername/wellplate-analysis"
+"Homepage" = "https://github.com/PlesaLab/wellplate-analysis"
 "Repository" = "https://github.com/yourusername/wellplate-analysis"
 
 [tool.setuptools.packages.find]
