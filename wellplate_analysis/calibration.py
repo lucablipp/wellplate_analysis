@@ -79,6 +79,5 @@ def plot_calibration(rfus, fluor_molecules, slope, intercept, r_squared, output_
     verticalalignment='top')
     os.makedirs(output_folder, exist_ok=True)
     plt.savefig(os.path.join(output_folder, filename))
-    plt.show()
     plt.close()
 
