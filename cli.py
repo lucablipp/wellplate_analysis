@@ -12,7 +12,7 @@ def main():
         help="Path to YAML configuration file"
     )
 
-    args = parse.parse_args()
+    args = argparse.parse_args()
 
     run_pipeline(args.config)
 
